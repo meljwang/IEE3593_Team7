@@ -34,7 +34,6 @@ transliter = Transliter(academic)
 def romanize(text: str) -> str:
     if not isinstance(text, str) or not text.strip():
         return text
-    # Keep spaces; title-case; replace hyphens with spaces for readability
     return transliter.translit(text).replace("-", " ").title()
 
 # Station romanization
