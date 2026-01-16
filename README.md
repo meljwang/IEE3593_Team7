@@ -1,4 +1,4 @@
-# Seoul Metro Temporal Ridership Study
+# Seoul Metro Temporal Ridership
 ## Overview
 
 This portion of our project explores and predicts subway station ridership patterns in the Seoul Metro system using temporal data from 2015 onwards. By leveraging both classical machine learning (LightGBM) and deep learning (LSTM) approaches, we aim to understand and forecast daily passenger flows at the station level, supporting operational planning and strategic decision-making.
